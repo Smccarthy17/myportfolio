@@ -1,0 +1,187 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*body*/
+.body {
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*header*/
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    background-color: white;
+    color: black;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* nav bar */
+.nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* navigation bar links */
+.nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: line;
+    font-size: 17px;
+}
+
+/* color hover links */
+.nav a:hover {
+    background-color: darkorange;
+    color: white;
+}
+
+/* hero */
+.hero h1 {
+    margin: 1%;
+    font-size: 48px;
+    color: darkblue;
+}
+
+.hero {
+    position: absolute left;
+    justify-content: flex-start;
+    margin-left: 30px;
+    float: left;
+    font-style: italic;
+    font-size: large;
+}
+/* main */
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 60px;
+    color: darkblue;
+}
+
+.main h2 {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.about-me-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* work  */
+/* #work {
+    display: flex;
+    margin-bottom: 5%;
+} */
+
+.work-title-container {
+    display: flex;
+    width: 40px;
+    height: 50px;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.work-project-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: left;
+    width: 30%;
+    text-align: left;
+}
+
+/* #Challenge-1 {
+    margin: 5%;
+    padding: 10%;
+    border: 10%;
+}
+
+#placeholder {
+    margin: 5%;
+    padding: 10%;
+    border: 10%;
+}
+
+#congress-confidential {
+    margin: 5%;
+    padding: 10%;
+    border: 10%;
+}
+
+#placeholder2 {
+    margin: 5%;
+    padding: 10%;
+    border: 10%;
+}
+
+#placeholder3 {
+    margin: 5%;
+    padding: 10%;
+    border: 10%;
+} */
+
+/* Resume */
+.resume-text-container {
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    background-color: darkorange; 
+}
+
+/*footer*/
+#contact-info {
+    display: flex;
+    color: black;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    background-color: darkorange;
+}
+
+.info-text-container {
+    font-size: 16px;
+    width: 30%;
+    text-align: left;
+    width: 250px;
+}
+
+.contact-info-list {
+    width: 70%;
+    height: 100px;
+    list-style-type: none;
+    line-height: 1.3;
+}
+
+.phone-number h3,
+.email h3 {
+    font-size: 16px;
+    text-decoration: underline;
+    padding: 0 10px 0 10px;
+    width: 175%;
+}
+
+.github a,
+.linkedin a {
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 0 10px 0 10px;
+    margin-bottom: 3px;
+}
