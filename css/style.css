@@ -71,6 +71,7 @@
 .work-project-container {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     flex-direction: column;
     justify-content: left;
     width: 30%;
@@ -87,11 +88,11 @@
     margin-right: 5px;
     margin-bottom: 5px;
     margin-left: 5px;
-    background-color: darkorange; 
+    background-color: darkorange;
 }
 
 /*footer*/
-#contact-info {
+#info-text-container {
     display: flex;
     color: black;
     margin-top: 5px;
@@ -131,4 +132,60 @@
     font-size: 16px;
     padding: 0 10px 0 10px;
     margin-bottom: 3px;
+}
+
+@media screen and (max-width: 900px) {
+    .board {
+        width: 100%;
+    }
+
+    .board.button {
+        width: auto;
+    }
+
+    .column {
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .board {
+        width: 100%;
+    }
+
+    .board.button {
+        width: auto;
+    }
+
+    .column {
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .board {
+        width: 100%;
+    }
+
+    .board.button {
+        width: 90%;
+    }
+
+    .board .column {
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .board {
+        width: 100%;
+    }
+
+    .board.button {
+        width: 90%;
+    }
+
+    .board .column {
+        display: inline-block;
+    }
 }
