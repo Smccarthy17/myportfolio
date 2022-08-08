@@ -2,41 +2,45 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="./css/style.css" />
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>S. McCarthy Portfolio</title>
+    <link rel="stylesheet" href="./css/style.css" />
 </head>
 
 <body>
+    <!--navigation-->
     <header>
-        <div class="nav">
-            <a href="#about-me">About Me</a>
-            <a href="#Resume">Resume</a>
-            <a href="#work">Work</a>
-            <a href="#info-text-container">Contact Me</a>
-        </div>
+        <h1>Portfolio - Susan McCarthy
+        </h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#about">About Me</a>
+                </li>
+                <li>
+                    <a href="#projects">My Projects</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact Me</a>
+                </li>
+            </ul>
+        </nav>
     </header>
 
     <!-- Hero -->
     <section class="hero">
-        <h1>Susan McCarthy</h1>
+        <h2>S. McCarthy</h2>
         <img class=hero-profile-photo" src="./assets/images/smphoto.jpg" width="150" ; height="250"
-            alt="susan with glasses on top of her head.">
+            alt="susan with glasses on top of her head">
     </section>
 
     <!-- Main Section - About Me and Work -->
-    <main class="main">
-        <div id="about-me">
-            <h2>
-                About Me
-            </h2>
-            <br>
-            <br>
-            <br>
+    <section id="about" class="holding-container">
+        <div class="left-column">
+            <h2 class="section-h2">About</h2>
         </div>
-        <div class="about-me-text">
+
+        <div class="right-column">
             <p>
                 I am a self motivated entrepreneur who works well both independently and with teams.
                 <br>
@@ -59,72 +63,70 @@
                 <br>
             </p>
         </div>
+    </section>
 
-        <div id="work">
-            <div class="work-title-container">
-                <h2>Work</h2>
+    <section id="projects" class="holding-container">
+        <div class="left-column">
+            <h2 class="section-h2">Work</h2>
+        </div>
+
+        <article class="right-column">
+            <div class="internal-container">
+                <h2 class="centered img-h2">Horiseon</h2>
+                <a href="https://smccarthy17.github.io/-Challenge-1/" target="_blank" rel="noopener noreferrer">
+                    <img src="Assets/images/Horiseon.jpg" alt="Code Refactor Link" id="-Challenge-1">
+                    <!-- <img class="img-workL" src="./Assets/images/dusk.jpg"> -->
+                </a>
             </div>
 
-            <div class="work-project-container">
-                <div>
-                    <div>
-                        <a href="https://smccarthy17.github.io/-Challenge-1/">
-                            <img src="Assets/images/Horiseon.jpg" alt="Code Refactor Link" id="-Challenge-1"></a>
+            <div class="break"></div>
 
-                        <a href="placeholder">
-                            <img src="Assets/images/run buddy.png" alt="run buddy link" id="run-buddy"></a>
-
-                        <a href="https://ajjaswal.github.io/congress-confidential/">
-                            <img src="Assets/images/congressconf.png" alt="congress-confidential link"
-                                id="congress-confidential"></a>
-
-                        <a href="https://quiet-garden-98932.herokuapp.com/">
-                            <img src="Assets/images/musicSoundscape.png" alt="music-soundscape link"
-                                id="music-soundscape"></a>
-
-                        <!-- <a href="placeholder3"> -->
-                        <!-- <img src="Assets/images/webdesign.jpg" alt="placeholder3 link" id="placeholder3"></a> -->
-                        -->
-                    </div>
-                </div>
+            <div class="internal-container">
+                <h2 class="centered img-h2">Weekly Planner</h2>
+                <a href="https://smccarthy17.github.io/Weekly-Planner/" target="_blank" rel="noopener noreferrer">
+                    <img class="img-work" src="Assets/images/code.jpg" alt="weekly planner link" id="run-buddy">
+                </a>
             </div>
-        </div>
-    </main>
-    <br>
-    <hr>
 
-    <div class="resume-text-container">
-        <div id="Resume" <h2>Resume</h2>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-        </div>
-    </div>
-    <!--Foooter-->
-    <footer id="info-text-container">
+            <div class="break"></div>
 
-        <div class="contact-info">
-            <h2>Contact Me</h2>
+            <div class="internal-container">
+                <h2 class="centered img-h2">Congress Confidential</h2>
+                <a href="https://ajjaswal.github.io/congress-confidential/" target="_blank" rel="noopener noreferrer">
+                    <img class="img-work" src="Assets/images/code refactor.png" alt="congress-confidential link">
+                </a>
+            </div>
 
-            <ul class="contact-info-list">
-                <li class="phone-number">
-                    <h3>860-555-5555</h3>
-                </li>
-                <li class="email">
-                    <h3>thisemail@gmail.com</h3>
-                </li>
-                <li class="github">
-                    <a href="https://github.com/Smccarthy17">GitHub</a>
-                </li>
-                <li class="linkedin">
-                    <a href="https://linkedin.com">Linkedin</a>
-                </li>
-            </ul>
+            <div class="break"></div>
+            <div class="internal-container">
+                <h2 class="centered img-h2">Music-Soundscape</h2>
+                <a href="https://quiet-garden-98932.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                    <img class="img-work" src="Assets/images/webdesign.jpg" alt="music-soundscape link">
+
+                </a>
+            </div>
+
+        </article>
+    </section>
+
+    <footer id="contact" class="holding-container">
+        <div class="left-column">
+            <h2 class="section-h2">Contact</h2>
         </div>
+
+        <article class="right-column">
+            <div class="internal-container">
+                <a class="link-style" href="phone">555.555.555.</a>
+            </div>
+            <div class="internal-container">
+                <a class="link-style" href="email">s.emccarthy111@gmail.com</a>
+            </div>
+            <div class="internal-container">
+                <a class="link-style" href="https://github.com/Smccarthy17" target="_blank"
+                    rel="noopener noreferrer">Github</a>
+            </div>
+        </article>
     </footer>
-
 </body>
 
 </html>
