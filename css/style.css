@@ -84,10 +84,10 @@ a:link {
   }
 
   
-/*Hero Style*/
+/* Hero Style */
 .hero {
   height: 400px;
-  background-image: url("../images/portfolio-heronew.jpg");
+  background-image:radial-gradient(darkorchid, darkblue, lightseagreen);
   background-position: center;
   background-size: cover;
   position:relative;
@@ -157,7 +157,7 @@ font-size:20px;
 }
 
 .img-h2{
-  font-size:28px;
+  font-size:50px;
   color:#ffffff;
   opacity: 1;
 }
@@ -172,8 +172,8 @@ font-size:20px;
 }
 
 .img-work:hover{
-  opacity: 0.8;
-  filter: alpha(opacity=80);
+  opacity: 0.1;
+  filter: alpha(opacity=10);
 }
 
 .img-workL{
@@ -191,7 +191,7 @@ font-size:20px;
 }
 
 .img-h2:hover{
-  font-size:28px;
+  font-size:50px;
   color:red;
   opacity: 1;
 }
