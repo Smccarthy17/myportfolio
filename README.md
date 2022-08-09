@@ -28,12 +28,9 @@ THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 
+Deployed: https://smccarthy17.github.io/myportfolio/
 
-Deployed:
-
-GitHub:  
-
-
+GitHub: https://github.com/Smccarthy17/myportfolio.git
 
 Study group: Study group: Susan, Sarah, Chris P, Jackson, Ricky, Karan, Ekow, Trent
 
