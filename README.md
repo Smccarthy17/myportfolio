@@ -30,7 +30,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 Deployed: https://smccarthy17.github.io/myportfolio/
 
-GitHub: https://github.com/Smccarthy17/myportfolio.git
+
 
 Study group: Study group: Susan, Sarah, Chris P, Jackson, Ricky, Karan, Ekow, Trent
 
