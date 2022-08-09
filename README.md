@@ -35,3 +35,4 @@ GitHub: https://github.com/Smccarthy17/myportfolio.git
 Study group: Study group: Susan, Sarah, Chris P, Jackson, Ricky, Karan, Ekow, Trent
 
 <img width="851" alt="image" src="https://user-images.githubusercontent.com/90977936/183548226-78f5db92-b8f8-4b31-9562-03d4eb5992a9.png">
+
