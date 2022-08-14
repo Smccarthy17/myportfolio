@@ -30,9 +30,13 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 Deployed: https://smccarthy17.github.io/myportfolio/
 
-GitHub: https://github.com/Smccarthy17/myportfolio.git
+
 
 Study group: Study group: Susan, Sarah, Chris P, Jackson, Ricky, Karan, Ekow, Trent
 
+<<<<<<< HEAD
 <img width="851" alt="image" src="https://user-images.githubusercontent.com/90977936/183548226-78f5db92-b8f8-4b31-9562-03d4eb5992a9.png">
+=======
+<img width="1292" alt="image" src="https://user-images.githubusercontent.com/90977936/183756984-a3cf651c-9e02-4145-bbd0-5cca476f00b0.png">
+>>>>>>> 2389b7b559b51f587ceb95ba3d3dec48176230be
 
